@@ -19,6 +19,7 @@ public class Location {
 
     // Custom toString, equals, and hashCode methods:
 
+
     @Override
     public String toString() {
         return value;
@@ -41,6 +42,16 @@ public class Location {
 
     public int getId() {
         return id;
+    }
+
+
+//    public  Location(String value) {
+//        this();
+//        this.value = value;
+//    }
+
+    public Location(String value){
+        super();
     }
 
     public String getValue() {
