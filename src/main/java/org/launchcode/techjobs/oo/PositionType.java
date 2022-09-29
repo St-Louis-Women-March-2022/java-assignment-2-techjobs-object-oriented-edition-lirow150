@@ -1,5 +1,7 @@
 package org.launchcode.techjobs.oo;
 
+import java.util.Objects;
+
 public class PositionType {
 
     private int id;
@@ -41,7 +43,7 @@ public class PositionType {
 
     @Override
     public int hashCode() {
-        return Objecs.hash(getId());
+        return Objects.hash(getId());
     }
 
 
