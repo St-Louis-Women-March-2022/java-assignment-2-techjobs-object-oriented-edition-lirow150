@@ -3,7 +3,7 @@ package org.launchcode.techjobs.oo;
 
 import java.util.Objects;
 
-public class Job {
+public class Job extends JobField {
 
     private int id;
     private static int nextId = 1;
@@ -132,7 +132,7 @@ public class Job {
             coreCompetency.setValue(data);
         }
 
-        return "\n" + "ID: " + "id" + "\n" +
+        return "\n" + "ID: " + id + "\n" +
                 "Name: " + name + "\n" +
                 "Employer: " + employer + "\n" +
                 "Location: " + location + "\n" +
